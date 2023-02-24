@@ -1,5 +1,8 @@
 package free.tube.premium.advanced.bat_and_ball
 
+import androidx.annotation.Keep
+
+@Keep
 data class Experience(
     val account_id: String,
     val ad_id: String,
